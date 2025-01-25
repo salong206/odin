@@ -37,7 +37,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  align-self:flex-start;
   flex-shrink: 0;
 }
 
@@ -54,7 +53,6 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
-  flex-shrink: 0;
 }
 
 button {
@@ -76,15 +74,14 @@ button.cancel {
 }
 
 .header {
-    font-weight: bold;
-    font-size: larger;
-    justify-content: space-between;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 8px;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 12px;
+.text {
+    margin-bottom: 16px;
 }
